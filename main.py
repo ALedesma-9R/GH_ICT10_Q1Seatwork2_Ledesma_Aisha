@@ -17,11 +17,11 @@ display(f"{business_name}", target="brand_introduction1")
 display(f"YOU HAVE ARRIVEEDDDD!! HeeeEEREee at {business_name}!, {owner_name} ({year_established}).", target="brand_introduction2")
 
 display(f"At a tax rate of... {tax_rate}", target="tax_rate")
-display(f"{product_prices[0]}&emsp;{product_prices[1]}&emsp;{product_prices[2]}", target="product_prices")
-display(f"Our prices range from ", target="product_prices")
+display(f"Our prices range from {product_prices[0]}&emsp;{product_prices[1]}&emsp;{product_prices[2]}", target="product_prices")
 display(f"", target="product_images")
 display(f"Some common things we get requested:{commmon_requests}", target="commmon_requests")
 
 display(f"We are open on {business_hours}! <br> Operations INCLUDE: Audience interaction, main discussion hours, inquiry services for applying clients & business inquiries.", target="business_hours")
 display(f"Right now, our delivery status is: {has_delivery}", target="delivery_status")
+
 display(f"<br>".join(contact_information), target="contact_information")
